@@ -1,0 +1,26 @@
+Class A Network:
+Class A networks have IP addresses in the range 1.0.0.0 to 126.255.255.255.
+A subnet mask of 255.0.0.0 is typically used for Class A networks.
+Class B Network:
+Class B networks have IP addresses in the range 128.0.0.0 to 191.255.255.255.
+A subnet mask of 255.255.0.0 is typically used for Class B networks.
+Router Configuration:
+Connect the Router:
+Physically connect the router to your network. Ensure that it's powered on and properly connected to the devices.
+Access the Router Configuration Interface:
+Open a web browser and enter the router's IP address in the address bar. The router's IP address is usually 192.168.0.1, 192.168.1.1, or something similar. Check the router's manual for the exact IP address.
+Log In to the Router:
+You'll be prompted to log in. Enter the router's username and password. The default login credentials are often found in the router's manual. If they've been changed, use the updated credentials.
+Configure LAN Settings:
+In the router's configuration interface, navigate to the LAN settings.
+Assign an IP address within the Class A range (e.g., 10.0.0.1) to the router for the Class A network.
+Configure DHCP (Optional):
+You can enable the router's DHCP server to automatically assign IP addresses to devices in the network.
+Class A Network Devices:
+For devices in the Class A network, set their IP addresses manually or enable DHCP.
+Class B Network Devices:
+Configure devices in the Class B network with IP addresses within the Class B range (e.g., 172.16.0.1).
+Routing:
+The router should be able to route traffic between the Class A and Class B networks, as routers operate at the network layer and can route traffic between different subnets.
+Firewall and Security:
+Implement firewall rules and security measures on the router to control and secure traffic between the networks.
