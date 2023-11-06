@@ -1,0 +1,15 @@
+i) View current routing table
+netstat -r
+
+ii) Add and Delete Routes
+To add a route, you can use the route command with the add option. For example, to add a route to network 192.168.1.0 via gateway 192.168.0.1 on the interface eth0:
+sudo route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.0.1 dev eth0
+
+To delete a route, use the route command with the del option. For example, to delete the route to network 192.168.1.0:
+sudo route del -net 192.168.1.0
+
+iii) change default gateway
+First, you need to delete the existing default gateway using the route command with the del option
+sudo route del default
+Then, add a new default gateway using the route command with the add option. For example, to set the default gateway to 192.168.0.1:
+sudo route add default gw 192.168.0.1

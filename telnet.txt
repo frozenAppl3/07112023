@@ -1,0 +1,7 @@
+https://phoenixnap.com/kb/telnet-linux
+
+sudo apt install telnetd -y
+sudo systemctl status inetd 
+sudo ufw allow 23/tcp
+sudo ufw reload
+telnet [remote_machine_IP]
