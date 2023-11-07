@@ -77,3 +77,10 @@ exit 0
 $ns at 5.0 "finish"
 #Run the simulation
 $ns run
+
+
+
+
+
+https://drive.google.com/file/d/1dkNPNN23Vy6o_zT0uIRBgUAo1VCXcVOY/view
+$sudo dpkg --install nam_1.14_amd64.deb
