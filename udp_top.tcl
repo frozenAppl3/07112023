@@ -80,7 +80,9 @@ $ns run
 
 
 
-
+sudo apt-get install ns2
+sudo apt-get install nam
+sudo apt-get install tcl
 
 https://drive.google.com/file/d/1dkNPNN23Vy6o_zT0uIRBgUAo1VCXcVOY/view
 $sudo dpkg --install nam_1.14_amd64.deb
